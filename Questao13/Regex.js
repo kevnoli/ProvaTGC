@@ -1,0 +1,10 @@
+let reg = new RegExp(".s");
+let s = "as";
+console.log("\\.s\\ casa com \"as\"? " + reg.test(s));
+s = "mk";
+console.log("\\.s\\ casa com \"mk\"? " + reg.test(s));
+s = "mst";
+console.log("\\.s\\ casa com \"mst\"? " + reg.test(s));
+reg = new RegExp("..s");
+s = "mas";
+console.log("\\..s\\ casa com \"mas\"? " + reg.test(s));
